@@ -1,0 +1,459 @@
+1. What is the default value of a boolean in Java?
+A. true
+B. false
+C. null
+D. 0
+
+Correct Answer: B. false
+
+2. Which of the following is not a Java keyword?
+A. static
+B. new
+C. goto
+D. main
+
+Correct Answer: D. main
+
+3. What is the size of an int in Java?
+A. 16 bits
+B. 32 bits
+C. 64 bits
+D. 8 bits
+
+Correct Answer: B. 32 bits
+
+4. Which method is used to start a thread in Java?
+A. run()
+B. start()
+C. init()
+D. execute()
+
+Correct Answer: B. start()
+
+5. Which of the following is a checked exception in Java?
+A. NullPointerException
+B. ClassCastException
+C. IOException
+D. ArrayIndexOutOfBoundsException
+
+Correct Answer: C. IOException
+
+6. What does the final keyword mean when applied to a class?
+A. The class can be subclassed
+B. The class cannot be subclassed
+C. The class variables are static
+D. The class cannot contain methods
+
+Correct Answer: B. The class cannot be subclassed
+
+7. What is the output of the following code?
+java
+Copy code
+public class Test {
+   public static void main(String[] args) {
+       int x = 5;
+       x = x++ + ++x;
+       System.out.println(x);
+   }
+}
+A. 11
+B. 12
+C. 10
+D. 13
+
+Correct Answer: B. 12
+
+8. Which of the following is a marker interface?
+A. Serializable
+B. Comparable
+C. Runnable
+D. Cloneable
+
+Correct Answer: A. Serializable
+
+9. How does Java achieve platform independence?
+A. By compiling directly to machine code
+B. By using the Java Virtual Machine (JVM)
+C. By using C as the underlying language
+D. By using a platform-specific compiler
+
+Correct Answer: B. By using the Java Virtual Machine (JVM)
+
+10. Which collection class allows you to store key-value pairs and allows duplicate values?
+A. HashMap
+B. HashSet
+C. TreeSet
+D. ArrayList
+
+Correct Answer: A. HashMap
+
+Core Java Basics (1-20)
+11. What is the output of System.out.println(10 + 20 + "Java");?
+A. Java1020
+B. 30Java
+C. Java30
+D. Java102030
+Correct Answer: B. 30Java
+
+12. Which data type is used to store decimal numbers in Java?
+A. int
+B. float
+C. char
+D. boolean
+Correct Answer: B. float
+
+13. Which method is called when an object is garbage collected?
+A. finalize()
+B. dispose()
+C. garbageCollect()
+D. destroy()
+Correct Answer: A. finalize()
+
+4. Which operator is used to compare two values in Java?
+A. ==
+B. =
+C. !=
+D. &&
+Correct Answer: A. ==
+
+5. What will 10 / 3 return in Java when both operands are integers?
+A. 3.33
+B. 3
+C. 3.0
+D. Error
+Correct Answer: B. 3
+
+
+Core Java Basics (6-20)
+6. What is the output of the following code?
+
+java
+Copy code
+System.out.println("Hello" + 1 + 2);
+A. Hello12
+B. Hello3
+C. 3Hello
+D. 12Hello
+Correct Answer: A. Hello12
+
+7. Which keyword is used to inherit a class in Java?
+A. extends
+B. implements
+C. inherit
+D. super
+Correct Answer: A. extends
+
+8. Which of these is not a primitive data type in Java?
+A. byte
+B. String
+C. int
+D. char
+Correct Answer: B. String
+
+9. What is the result of Math.min(3, -3)?
+A. 3
+B. -3
+C. 0
+D. Error
+Correct Answer: B. -3
+
+10. How do you declare an array in Java?
+A. int[] arr = new int[10];
+B. array int arr[10];
+C. int arr[] = [10];
+D. int arr(10);
+Correct Answer: A. int[] arr = new int[10];
+
+
+Object-Oriented Programming (OOP) Concepts (21-40)
+11. Which of the following is true about inheritance in Java?
+A. A class can inherit multiple classes.
+B. A class can extend only one class but implement multiple interfaces.
+C. Interfaces cannot be inherited.
+D. You cannot use the super keyword with inheritance.
+Correct Answer: B. A class can extend only one class but implement multiple interfaces.
+
+12. What is the purpose of the super keyword in Java?
+A. To call the parent class constructor
+B. To create a new superclass
+C. To create a new subclass
+D. To implement an interface
+Correct Answer: A. To call the parent class constructor
+
+13. What is method overloading?
+A. Defining multiple methods with the same name but different parameters
+B. Two methods with the same name and parameters in different classes
+C. Defining a method with more than one return type
+D. Using final with methods
+Correct Answer: A. Defining multiple methods with the same name but different parameters
+
+14. What is method overriding in Java?
+A. Two methods with different names but the same signature
+B. A subclass redefining a method from its superclass
+C. Declaring multiple methods with the same name in one class
+D. Methods that return multiple values
+Correct Answer: B. A subclass redefining a method from its superclass
+
+15. Which of the following is not an access modifier in Java?
+A. public
+B. protected
+C. default
+D. transient
+Correct Answer: D. transient
+
+Multithreading and Concurrency (41-60)
+16. Which interface must be implemented to create a thread in Java?
+A. Runnable
+B. Threadable
+C. Executor
+D. Callable
+Correct Answer: A. Runnable
+
+17. What is the purpose of the synchronized keyword?
+A. To make variables immutable
+B. To ensure thread safety
+C. To stop a thread
+D. To restart a thread
+Correct Answer: B. To ensure thread safety
+
+18. What is the state of a thread when yield() is called?
+A. Blocked
+B. Runnable
+C. Dead
+D. Waiting
+Correct Answer: B. Runnable
+
+19. What method is used to pause a thread for a specified time?
+A. wait()
+B. sleep()
+C. pause()
+D. hold()
+Correct Answer: B. sleep()
+
+20. Which method can stop a thread safely?
+A. stop()
+B. terminate()
+C. Use of a flag with interrupt()
+D. kill()
+Correct Answer: C. Use of a flag with interrupt()
+
+Exceptions and Error Handling (21-30)
+21. Which exception is thrown when an array is accessed with an illegal index?
+A. NullPointerException
+B. ArrayIndexOutOfBoundsException
+C. ClassCastException
+D. IllegalArgumentException
+Correct Answer: B. ArrayIndexOutOfBoundsException
+
+22. Which block must be included in a try-catch-finally structure?
+A. try
+B. catch
+C. finally
+D. Both catch and finally
+Correct Answer: A. try
+
+23. What is the parent class of all exceptions in Java?
+A. RuntimeException
+B. Throwable
+C. Exception
+D. Error
+Correct Answer: B. Throwable
+
+24. Which of the following is an unchecked exception?
+A. IOException
+B. SQLException
+C. NullPointerException
+D. FileNotFoundException
+Correct Answer: C. NullPointerException
+
+25. What happens if a finally block has a return statement?
+A. It overrides any previous return from try or catch.
+B. It causes a compilation error.
+C. It is ignored completely.
+D. It executes but does not override the previous return.
+Correct Answer: A. It overrides any previous return from try or catch.
+
+Java Collections Framework (31-40)
+26. Which collection class is used to store key-value pairs and maintains insertion order?
+A. HashMap
+B. LinkedHashMap
+C. TreeMap
+D. Hashtable
+Correct Answer: B. LinkedHashMap
+
+27. Which of the following does not allow duplicate elements?
+A. ArrayList
+B. HashSet
+C. LinkedList
+D. Vector
+Correct Answer: B. HashSet
+
+28. How do you convert an Array to a List in Java?
+A. Arrays.toList()
+B. List.of()
+C. Arrays.asList()
+D. Collections.toList()
+Correct Answer: C. Arrays.asList()
+
+29. Which class implements the Queue interface in Java?
+A. HashMap
+B. LinkedList
+C. TreeSet
+D. Vector
+Correct Answer: B. LinkedList
+
+30. What is the time complexity for accessing an element by index in an ArrayList?
+A. O(1)
+B. O(n)
+C. O(log n)
+D. O(n^2)
+Correct Answer: A. O(1)
+
+Advanced Java Concepts (41-50)
+31. What is a lambda expression in Java?
+A. A concise way to implement interfaces with a single abstract method
+B. A type of exception
+C. A feature of older Java versions
+D. A method to create objects
+Correct Answer: A. A concise way to implement interfaces with a single abstract method
+
+32. What is the purpose of the default keyword in interfaces?
+A. To declare default access level
+B. To provide a method with a default implementation
+C. To make the interface final
+D. To initialize variables
+Correct Answer: B. To provide a method with a default implementation
+
+33. Which functional interface is used in lambda expressions for returning a value?
+A. Runnable
+B. Predicate
+C. Supplier
+D. Callable
+Correct Answer: C. Supplier
+
+34. What is the difference between == and equals() in Java?
+A. == checks reference equality, equals() checks value equality.
+B. Both check value equality.
+C. equals() checks reference equality, == checks value equality.
+D. Both check reference equality.
+Correct Answer: A. == checks reference equality, equals() checks value equality.
+
+35. What is the purpose of the volatile keyword?
+A. It allows caching of variables by threads.
+B. It makes variables thread-safe by ensuring visibility across threads.
+C. It is used to stop threads.
+D. It prevents variable modification.
+Correct Answer: B. It makes variables thread-safe by ensuring visibility across threads.
+
+Java Input/Output (I/O) and File Handling (51-60)
+. Which class is used to read input from a file in Java?
+A. FileInputStream
+B. BufferedWriter
+C. FileReader
+D. PrintWriter
+Correct Answer: C. FileReader
+
+. Which method is used to write data to a file in FileWriter?
+A. write()
+B. append()
+C. flush()
+D. store()
+Correct Answer: A. write()
+
+. What does the flush() method do in Java I/O?
+A. Clears the file
+B. Writes buffered data to the output stream
+C. Closes the stream
+D. Reads data into the buffer
+Correct Answer: B. Writes buffered data to the output stream
+
+. Which stream is used for reading binary data in Java?
+A. DataOutputStream
+B. InputStream
+C. BufferedReader
+D. OutputStream
+Correct Answer: B. InputStream
+
+. What is the correct way to close a file in Java?
+A. file.close();
+B. close(file);
+C. file.flush();
+D. System.close(file);
+Correct Answer: A. file.close();
+
+. Which exception is thrown when an I/O operation fails?
+A. IOException
+B. FileNotFoundException
+C. InputMismatchException
+D. ClassCastException
+Correct Answer: A. IOException
+
+. Which method is used to check if a file exists?
+A. file.exists()
+B. file.isAvailable()
+C. file.present()
+D. file.isEmpty()
+Correct Answer: A. file.exists()
+
+. What is the difference between InputStream and Reader?
+A. InputStream handles character data, Reader handles byte data.
+B. InputStream handles byte data, Reader handles character data.
+C. Both handle character data.
+D. Both handle byte data.
+Correct Answer: B. InputStream handles byte data, Reader handles character data.
+
+. Which class is used to create a directory in Java?
+A. File
+B. Directory
+C. Folder
+D. Path
+Correct Answer: A. File
+
+ What is the role of BufferedReader in Java I/O?
+A. Reads data line by line
+B. Writes data to the buffer
+C. Reads only one character at a time
+D. Used for binary data
+Correct Answer: A. Reads data line by line
+
+Java Memory Management and Garbage Collection (61-70)
+. What is the primary purpose of Java garbage collection?
+A. Reclaim memory occupied by unreachable objects
+B. Organize memory allocation
+C. Create objects automatically
+D. Monitor thread execution
+Correct Answer: A. Reclaim memory occupied by unreachable objects
+
+. How can you request garbage collection in Java?
+A. System.gc()
+B. Runtime.exit()
+C. GarbageCollector.invoke()
+D. Thread.stop()
+Correct Answer: A. System.gc()
+
+. What is the final state of an object eligible for garbage collection?
+A. Accessible
+B. Inaccessible
+C. Active
+D. Pending Finalization
+Correct Answer: D. Pending Finalization
+
+64. Which type of reference prevents an object from being garbage collected?
+A. WeakReference
+B. SoftReference
+C. Strong Reference
+D. PhantomReference
+Correct Answer: C. Strong Reference
+
+ What does the JVM do during garbage collection?
+A. Compiles Java code
+B. Reclaims memory from unreachable objects
+C. Executes threads
+D. Manages file I/O
+Correct Answer: B. Reclaims memory from unreachable objects
+
+
+
+
+
+
