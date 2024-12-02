@@ -1,7 +1,23 @@
 package lk.dil.quiz_application;
 
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Pattern;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Answers {
-    String answer1 = "B";
-String answer2 ="D";
+    @NotNull(message = "Answer is required")
+    @Pattern(
+            regexp = "^[a-dA-D]$\n",
+            message = "Invalid Answer"
+    )
+    private String answer;
+
+    public Answers(String answer) {
+        this.answer = answer;
+    }
 
 }
+
