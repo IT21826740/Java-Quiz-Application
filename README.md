@@ -19,7 +19,7 @@ Welcome to the **Java Quiz Application**! This simple quiz app is built using Ja
 ### Using the Terminal  
 1. **Clone the repository:**  
    ```bash  
-   git clone <your-repo-url>  
+   git clone [<your-repo-url>](https://github.com/IT21826740/Java-quiz-app.git)  
    cd <repo-name>  
    ```  
 
