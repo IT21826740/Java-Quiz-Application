@@ -68,4 +68,7 @@ Welcome to the **Java Quiz Application**! This simple quiz app is built using Ja
 ## Thank You!  
 Enjoy the quiz and see how many questions you can get right.😊  
 
+![Screenshot From 2024-12-02 10-43-30](https://github.com/user-attachments/assets/d5f3a7aa-1134-42c6-9466-46d725698f6a)
+
+
 -- LEARN SPRINGBOOT & JAVA  2024@DIL -- 
