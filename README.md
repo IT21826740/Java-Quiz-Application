@@ -70,5 +70,6 @@ Enjoy the quiz and see how many questions you can get right.😊
 
 ![Screenshot From 2024-12-02 10-43-30](https://github.com/user-attachments/assets/d5f3a7aa-1134-42c6-9466-46d725698f6a)
 
+![Screenshot From 2024-12-02 10-47-56](https://github.com/user-attachments/assets/ac771441-de47-4f8d-8ca6-2bdda59bf34a)
 
 -- LEARN SPRINGBOOT & JAVA  2024@DIL -- 
